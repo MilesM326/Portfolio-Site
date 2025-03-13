@@ -1,0 +1,30 @@
+---
+title: Miles Modeste - Projects
+layout: 'base.njk'
+---
+
+<main id="project-collection" class="wrapper">
+  <hr />
+  <div class="project-list flow">
+    <div class="project-list__header wrapper" data-wrapper-type="inner">
+      <h1>Selected Projects</h1>
+    </div>
+    <ol role="list">
+      {%- for project in collections.project -%}
+      <li>
+        <div class="project">
+          <div class="project__content flow">
+            <div class="project__image">
+              <img
+                src="{{ project.data.image }}"
+                alt="{{ project.data.title }}"
+              />
+            </div>
+          </div>
+        </div>
+      </li>
+      {%- endfor -%}
+    </ol>
+    <hr />
+  </div>
+</main>
