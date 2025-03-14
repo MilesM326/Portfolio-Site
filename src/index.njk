@@ -7,68 +7,49 @@ layout: 'base.njk'
   <hr />
   <div class="hero flow">
     <h1 class="hero__heading wrapper" data-wrapper-type="inner">
-      Brooklyn-based software developer eager to contribute to innovative
-      projects.
+      Brooklyn-based software developer.
     </h1>
     <div class="hero__links">
       <ul class="cluster">
         <li class="flex-grow"><a href="/about">More About Me</a></li>
-        <li><a href="https://github.com/" target="_blank">GitHub /></a></li>
         <li>
-          <a href="https://www.linkedin.com/feed/" target="_blank"
-            >LinkedIn /></a
-          >
+          <a href="https://github.com/MilesM326" target="_blank">GitHub /></a></li>
+        <li>
+          <a href="https://www.linkedin.com/in/milesmodeste" target="_blank">LinkedIn /></a>
         </li>
       </ul>
     </div>
+
     <hr />
-  </div>
-  <div class="project-list flow">
-    <div class="project-list__header wrapper" data-wrapper-type="inner">
-      <h2>Highlights</h2>
+    
+    <div class="project-list flow">
+      <div class="project-list__header wrapper" data-wrapper-type="inner">
+        <h2>Highlights</h2>
+      </div>
+
+      <ol role="list">
+        {%- for post in collections.post | reverse -%}
+          <li>
+            <div class="project">
+              <div class="project__content flow">
+                <div>
+                  <h3 class="project__heading">
+                    <a href="" data-variant="inline">{{ post.data.title }}</a>
+                  </h3>
+                  <p class="project__tags clr-dark">{{ post.data.attributes }}</p>
+                </div>
+                <p class="project__excerpt">{{ post.data.excerpt }}</p>
+                <p><a href="">Keep Reading</a></p>
+              </div>
+              <div class="project__image">
+                <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}" />
+              </div>
+            </div>
+          </li>
+        {%- endfor -%}
+      </ol>
     </div>
-    <ol role="list">
-      <li>
-        <div class="project">
-          <div class="project__content flow">
-            <div>
-              <h3 class="project__heading">
-                <a href="" data-variant="inline">Project Title</a>
-              </h3>
-              <p class="project__tags clr-dark">C++, Python</p>
-            </div>
-            <p class="project__excerpt">
-              Donec maximus sed, donec elementum leo. leo. sit nisi id lacus,
-              ullamcorper ipsum efficitur.
-            </p>
-            <p><a href="">Keep Reading</a></p>
-          </div>
-          <div class="project__image">
-            <img src="https://placecats.com/g/600/600" alt="image" />
-          </div>
-        </div>
-      </li>
-      <li>
-        <div class="project">
-          <div class="project__content flow">
-            <div>
-              <h3 class="project__heading">
-                <a href="" data-variant="inline">Project Title</a>
-              </h3>
-              <p class="project__tags clr-dark">C++, Python</p>
-            </div>
-            <p class="project__excerpt">
-              Donec maximus sed, donec elementum leo. leo. sit nisi id lacus,
-              ullamcorper ipsum efficitur.
-            </p>
-            <p><a href="">Keep Reading</a></p>
-          </div>
-          <div class="project__image">
-            <img src="https://placecats.com/g/800/900" alt="image" />
-          </div>
-        </div>
-      </li>
-    </ol>
+
     <hr />
   </div>
 </main>
