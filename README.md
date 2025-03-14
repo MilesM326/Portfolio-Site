@@ -1,2 +1,4 @@
 # My-Website
-my first website to blog all my past, and current projects (uses 11ty)
+My first website to blog all my past, and current projects.
+
+11ty allows for modular design approach to make posting and updating more easy/versatile 
