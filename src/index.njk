@@ -34,12 +34,13 @@ layout: 'base.njk'
               <div class="project__content flow">
                 <div>
                   <h3 class="project__heading">
-                    <a href="" data-variant="inline">{{ post.data.title }}</a>
+                    <a href="{{ post.url }}" data-variant="inline">{{ post.data.title }}</a>
                   </h3>
                   <p class="project__tags clr-dark">{{ post.data.attributes }}</p>
+                  <p class="project__tags clr-dark">{{ post.data.date | postDate }}</p>
                 </div>
                 <p class="project__excerpt">{{ post.data.excerpt }}</p>
-                <p><a href="">Keep Reading</a></p>
+                <p><a href="{{ post.url }}">Keep Reading</a></p>
               </div>
               <div class="project__image">
                 <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}" />

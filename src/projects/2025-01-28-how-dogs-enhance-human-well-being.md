@@ -1,5 +1,6 @@
 ---
 title: How Dogs Enhance Human Well-Being
+date: 2025-01-28
 image: https://placecats.com/600/600
 imageAlt: A playful puppy.
 attributes: Pets, Mental Health

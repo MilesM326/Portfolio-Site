@@ -1,5 +1,6 @@
 ---
 title: The Importance of Wild Conservation
+date: 2025-01-28
 image: https://placecats.com/g/600/600
 imageAlt: This is a cat.
 attributes: Wildlife, Conservation

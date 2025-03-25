@@ -1,5 +1,6 @@
 ---
 title: The Untold Life of Ocean Dwellers
+date: 2025-01-28
 image: https://placebear.com/600/600
 imageAlt: A bear in the wild.
 attributes: Marine Biology, Ocean Life
