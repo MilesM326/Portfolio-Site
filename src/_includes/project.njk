@@ -1,12 +1,10 @@
 ---
 layout: 'base.njk'
 ---
-<!--  this is the page for an individual project -->
-<main class="wrapper">
+
+<main id="main-content" class="wrapper">
+  <hr />
   <h1>{{ title }}</h1>
-  <div>
-    <img src="{{ image }}" alt="{{ imageAlt }}" />
-    
-    {{ content | safe }}
-  </div>
+  <article class="article-content wrapper"> {{ content | safe }} </article>
+  <hr />
 </main>
