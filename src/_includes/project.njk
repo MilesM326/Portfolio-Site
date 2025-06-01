@@ -4,7 +4,25 @@ layout: 'base.njk'
 
 <main id="main-content" class="wrapper">
   <hr />
+
+  <img src="{{thumbnail}}"/>
   <h1>{{ title }}</h1>
+  <p>{{ summary }}</p>
+  <p>{{ description }}</p>
+
+  {% for item in gallery %}
+    {% set ext = item.split('.').pop() %}
+      
+      {% if ext == "mp4" %}
+        <video autoplay loop muted playsinline class="gallery-item">
+          <source src="{{ assetPath }}{{ item }}" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      {% else %}
+        <img src="{{ assetPath }}{{ item }}" alt="Gallery media" class="gallery-item" />
+      {% endif %}
+  {% endfor %}
+
   <article class="article-content wrapper"> {{ content | safe }} </article>
   <hr />
 </main>

@@ -1,14 +1,27 @@
 ---
-title: Kangaroo Hopper
 date: 2021-12-12
+title: Kangaroo Hopper
+tags: Engineering, Design
+summary: A final project for my intro mechanical engineering class freshman year
+description: 
+thumbnail: /assets/projects/Kangaroo_Hopper/v3profile.jpg
 assetPath: /assets/projects/Kangaroo_Hopper/
-image: /assets/projects/Kangaroo_Hopper/v3profile.jpg
-imageAlt: image of final design
-attributes: Engineering, Design
-excerpt: A final project for my intro mechanical engineering class freshman year
----
+gallery:
+    - Hopper-jump.mp4
+    - v1relaxed.jpg
+    - v1back.jpg
+    - v1tension.jpg
+    - v2front.jpg
+    - v2sitting.jpg
+    - v2tension.jpg
+    - v3profile.jpg
+    - v3magnet.jpg
 
-<div class="article__section">
+---
+<section>
+    
+</section>
+<!-- <div class="article__section">
     <div class="section-image">
         <img src="{{image}}"/>
     </div> 
@@ -30,8 +43,6 @@ excerpt: A final project for my intro mechanical engineering class freshman year
     <p>The completed design took inspiration from two animals: locusts, for their complex energy storage and release mechanism in their legs; and kangaroos, which influenced the aesthetic design of my hopper.</p>
 </div>
 <hr/>
-<!-- Carrosel?? -->
-<!-- video too -->
 <div class="article__section">
     <div class="section-text">
         <h3>Data</h3>
@@ -40,21 +51,21 @@ excerpt: A final project for my intro mechanical engineering class freshman year
     <div class="section-img">
         <img src="{{assetPath}}hopper_data.png"/>
     </div>
-    <!-- how did you calculate this data -->
+    
 </div>
 <h2>Design Process</h2>
 <p>All iterations were designed in SOLIDWORKS2021 before being lasercut on an Epilog Machine</p>
 <div class="article__section">
     <div class="section-text">
         <h3>Construction of Prototype 1</h3>
-        <!-- insert image about deer sketches -->
+        
         <p>Originally, I chose a deer as the design inspiration, thought my sketches quickly highlighted the complications of an effecient jumping quadruped. Rather than getting four legs to jump, I opted for a bipedal animal. Hence, the appearance of my hopper takes after the kangaroo, emphasizing its distinctive hind-leg-driven movement and balanced stance.</p>
-        <!-- deer sketches -->
+        
         <p>With regards to the mechanics of my hopper, I wanted to incorperate the latch-and-snap mechanism found in various jumping insects. For example, locusts can leap several times their body length by spring-loading their hind legs, bending the joints backward, locking them in place with a specialized mechanism. When released, the legs snap downward, propelling the insect forward like a biological catapult.</p>
         <img src="{{assetPath}}v1sketch.jpg"/>
         <p>My initial prototype explored the mechanical aspects of the hopper, more specifically, it was a proof-of-concept for the latch-and-snap design sketched and its application on a double hinged leg.</p>
         <br>
-        <!-- insert image about timer  -->
+        
         <p>Additionally, I brainstormed ideas for a timer which included...</p>
         <br>
         <img src="{{assetPath}}v1tension.jpg"/>
@@ -98,7 +109,7 @@ excerpt: A final project for my intro mechanical engineering class freshman year
     </div>
     <div>
         <h3>Fine-tuning to achieve the final version</h3>
-        <!-- sketch -->
+        
         <p>My 3rd model eventually became my last. I added a tail piece that would act as extra stability, and I turned the legs into one piece. The dowel at the knee remained and I also added a track for the 3/8 ball to roll down onto the see saw. With some minor tweaks to the overall shape the ball was able to consistently trigger. Furthermore, I had issues with...</p>
         <img src="{{assetPath}}v3profile.jpg"/>
         <img src="{{assetPath}}v3magnet.jpg"/>
@@ -111,4 +122,4 @@ excerpt: A final project for my intro mechanical engineering class freshman year
 <h3>Current Challenge & Possible Next Steps</h3>
 <div class>
     <p>While the updated model improves mechanical function, it is too front-heavy, affecting stability. The next step is to add a tail as a counterweight, enhancing balance and ensuring consistent, controlled hopping.</p>
-</div>
+</div> -->
