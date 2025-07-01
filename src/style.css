@@ -71,7 +71,10 @@ h5 {
 h6 {
   font-size: var(--fs-base);
 }
-
+img {
+  display: block;
+  max-inline-size: 100%;
+}
 /* Utility */
 
 .wrapper {
@@ -172,6 +175,30 @@ hr {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
+}
+.two-column-layout {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+}
+.project__head {
+  background-color: var(--clr-accent-50);
+  height: 20rem;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  .project__thumbnail {
+    
+    /* 
+    background-image: url("../assets/Kangaroo_Hopper/v3profile.project__image");
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: cover */
+  }
+  .project__head__text {
+    width: 50%;
+  }
 }
 .project-list__header {
   --gutter: var(--fs-xl);

@@ -4,13 +4,12 @@ layout: 'base.njk'
 
 <main id="main-content" class="wrapper">
   <hr />
-
+{# 
   <img src="{{thumbnail}}"/>
   <h1>{{ title }}</h1>
   <p>{{ summary }}</p>
-  <p>{{ description }}</p>
-
-  {% for item in gallery %}
+ #}
+  {# {% for item in gallery %}
     {% set ext = item.split('.').pop() %}
       
       {% if ext == "mp4" %}
@@ -21,7 +20,7 @@ layout: 'base.njk'
       {% else %}
         <img src="{{ assetPath }}{{ item }}" alt="Gallery media" class="gallery-item" />
       {% endif %}
-  {% endfor %}
+  {% endfor %} #}
 
   <article class="article-content wrapper"> {{ content | safe }} </article>
   <hr />

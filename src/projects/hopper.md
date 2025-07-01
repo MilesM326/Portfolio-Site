@@ -1,9 +1,8 @@
 ---
 date: 2021-12-12
 title: Kangaroo Hopper
-tags: Engineering, Design
-summary: A final project for my intro mechanical engineering class freshman year
-description: 
+category: Engineering, Design
+summary: An undergrad project to design and build a biologically-inspired mechanical hopper.
 thumbnail: /assets/projects/Kangaroo_Hopper/v3profile.jpg
 assetPath: /assets/projects/Kangaroo_Hopper/
 gallery:
@@ -19,7 +18,38 @@ gallery:
 
 ---
 <section>
-    
+    <!-- HERO  -->
+    <div class="two-column-layout">
+        <div class="project__head__text">
+            <h2>{{ title }}</h2>
+            <p>{{ summary }}</p>
+            <p>tags: {{category}}</p>
+        </div>
+        <img src="{{thumbnail}}">
+    <div>
+</section>
+<section>
+    <!-- Goals/SkillsUsed/  -->
+
+</section>
+<section>
+    <!-- Images: grid layout -->
+</section>
+<section>
+    <!-- Context -->
+    <div>
+        <h3>Context</h3>
+        <p>In my 'Introduction to Mechanical Engineering' class freshman year, I was tasked with designing a biologically-inspired hopper. The goal of this project was to analyze and implement a means to store potential energy and release it making the hopper jump.</p>
+        <p>Project guidelines were:</p>
+        <ul>
+            <li>Designing a trigger and/or timer following an 8 second or more delay.</li>
+            <li>Having the entirety of our design hop.</li>
+            <li>Define a personal design goal to incorporate.</li>
+        </ul>
+        <p>Materials for the project were limited to a kit provided to us.</p>
+        <a href="" target="_blank">Click here for extensive list</a>
+    </div>   
+    </div>
 </section>
 <!-- <div class="article__section">
     <div class="section-image">
