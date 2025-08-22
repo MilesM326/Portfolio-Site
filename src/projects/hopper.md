@@ -103,8 +103,8 @@ gallery:
     <div class="section-img">
         <img src="{{assetPath}}hopper_data.png"/>
     </div>
-    
 </div>
+-->
 <h2>Design Process</h2>
 <p>All iterations were designed in SOLIDWORKS2021 before being lasercut on an Epilog Machine</p>
 <div class="article__section">
