@@ -322,30 +322,40 @@ hr {
   }
 }
 
-.article-content {
-  display: flex;
-  flex-direction:  column;
-  gap: var(--gutter);
-}
-.article__section {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: top;
-  gap: 2rem;
-  .section-image {
+.article_container {
+  .article_header_section{
     display: flex;
-    flex-direction: column;
-    width: 50%;
-    margin: 0;
+    align-items: center;
+    .article_header_content{
+      background-color: aquamarine;
+      .h2{
+        padding-bottom: 1rem;
+      }
+    }
+    .article_header_image{
+      .img{
+        border-radius: 10px;
+      }
+    }
   }
-  .section-text {
+  .article_info {
     display: flex;
-    flex-direction: column;
-    width: 50%;
+    flex-direction: row;
+    .article_info_main {
+      background-color: aquamarine;
+    }
+    .article_info_secondary{
+      display: flex;
+      flex-direction: column;
+      .article_info_tertiary{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    }
   }
 }
+
 #container {
   width: 100px;
   height: 100px;

@@ -17,40 +17,62 @@ gallery:
     - v3magnet.jpg
 
 ---
-<section>
-    <!-- HERO  -->
-    <div class="two-column-layout">
-        <div class="project__head__text">
-            <h2>{{ title }}</h2>
-            <p>{{ summary }}</p>
-            <p>tags: {{category}}</p>
+<article class="article_container">
+    <div class="article_header_section">
+        <div class="article_header_content">
+            <h2 class="article_header_title">{{title}}</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti obcaecati impedit ipsam porro repellendus ullam architecto, asperiores dolorem delectus voluptatem blanditiis explicabo provident esse facilis quo neque omnis excepturi maxime!</p>
         </div>
-        <img src="{{thumbnail}}">
-    <div>
-</section>
-<section>
-    <!-- Goals/SkillsUsed/  -->
-
-</section>
-<section>
-    <!-- Images: grid layout -->
-</section>
-<section>
-    <!-- Context -->
-    <div>
-        <h3>Context</h3>
-        <p>In my 'Introduction to Mechanical Engineering' class freshman year, I was tasked with designing a biologically-inspired hopper. The goal of this project was to analyze and implement a means to store potential energy and release it making the hopper jump.</p>
-        <p>Project guidelines were:</p>
-        <ul>
-            <li>Designing a trigger and/or timer following an 8 second or more delay.</li>
-            <li>Having the entirety of our design hop.</li>
-            <li>Define a personal design goal to incorporate.</li>
-        </ul>
-        <p>Materials for the project were limited to a kit provided to us.</p>
-        <a href="" target="_blank">Click here for extensive list</a>
-    </div>   
+        <div class="article_header_image">
+            <img src="{{thumbnail}}" alt="">
+        </div>
     </div>
-</section>
+
+    <hr>
+
+    <div class="article_info">
+        <div class="article_info_main">
+            <h3>Goals</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores exercitationem, voluptatem consequatur deserunt dignissimos temporibus dicta enim dolorum voluptas dolore voluptatum vel nostrum consequuntur eveniet, nam, vitae dolores explicabo veritatis.</p>
+        </div>
+        <div class="article_info_secondary">
+            <div class="article_info_skills">
+                <h3>Skills</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias nulla deserunt cupiditate sit aperiam sunt repellat, eos rem delectus possimus reiciendis. Accusantium voluptatem expedita quis amet provident labore a neque?</p>
+            </div>
+            <div class="article_info_tertiary">
+                <div class="article_info_tools">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>SOLIDWORKS2021</li>
+                        <li>Lasercutter</li>
+                    </ul>
+                </div>
+                <div class="article_info_date">
+                    <h3>Date</h3>
+                    <p>{{date}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="article_content">
+        <div class="article_gallery">
+            <!-- fill with images in grid/ or make gallery if you can -->
+        </div>
+        <div class="article_text">
+            <h3>Assignment</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique eligendi saepe voluptatum eius dignissimos doloremque id. Modi ratione, sapiente id in placeat pariatur repellat distinctio eaque tenetur perspiciatis quidem minima?</p>
+            <h3>Discovery</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, ullam. Similique quod ut mollitia quae asperiores, officia, sint laboriosam consectetur iusto quos eaque enim atque voluptatem neque nobis sequi quaerat.</p>
+            <h3>Summary</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quia natus esse maxime, ipsum dolorum quidem incidunt, eaque recusandae saepe soluta quisquam facilis alias? Facilis eveniet repudiandae cum itaque ab?</p>
+        </div>
+    </div>
+    <!-- related projects done in .njk -->
+</article>
 <!-- <div class="article__section">
     <div class="section-image">
         <img src="{{image}}"/>
