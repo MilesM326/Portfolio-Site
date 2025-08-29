@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-/* Block */
-/* Exception */
 :root {
   --clr-neutral-900: rgb(0, 0, 0);
   --clr-neutral-500: rgb(80, 80, 80);
@@ -333,7 +331,7 @@ hr {
       }
     }
     .article_header_image{
-      .img{
+      img{
         border-radius: 10px;
       }
     }

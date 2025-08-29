@@ -17,63 +17,58 @@ gallery:
     - v3magnet.jpg
 
 ---
-<article class="article_container">
-    <div class="article_header_section">
-        <div class="article_header_content">
-            <h2 class="article_header_title">{{title}}</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti obcaecati impedit ipsam porro repellendus ullam architecto, asperiores dolorem delectus voluptatem blanditiis explicabo provident esse facilis quo neque omnis excepturi maxime!</p>
-        </div>
-        <div class="article_header_image">
+<article class="article_container flow">
+    <div class="hero">
+        <div class="hero_image">
             <img src="{{thumbnail}}" alt="">
         </div>
+        <div class="hero_intro flow">
+            <h2 class="hero_heading">{{title}}</h2>
+            <p class="hero_preview">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti obcaecati impedit ipsam porro repellendus ullam architecto, asperiores dolorem delectus voluptatem blanditiis explicabo provident esse facilis quo neque omnis excepturi maxime!</p>
+        </div>
     </div>
-
     <hr>
-
-    <div class="article_info">
-        <div class="article_info_main">
+    <div class="article_content flow">
+        <div class="primary_content">
             <h3>Goals</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores exercitationem, voluptatem consequatur deserunt dignissimos temporibus dicta enim dolorum voluptas dolore voluptatum vel nostrum consequuntur eveniet, nam, vitae dolores explicabo veritatis.</p>
         </div>
-        <div class="article_info_secondary">
-            <div class="article_info_skills">
-                <h3>Skills</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias nulla deserunt cupiditate sit aperiam sunt repellat, eos rem delectus possimus reiciendis. Accusantium voluptatem expedita quis amet provident labore a neque?</p>
-            </div>
-            <div class="article_info_tertiary">
-                <div class="article_info_tools">
-                    <h3>Tools</h3>
-                    <ul>
-                        <li>SOLIDWORKS2021</li>
-                        <li>Lasercutter</li>
-                    </ul>
-                </div>
-                <div class="article_info_date">
-                    <h3>Date</h3>
-                    <p>{{date}}</p>
-                </div>
-            </div>
+        <div class="secondary_content">
+            <h3>Skills</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias nulla deserunt cupiditate sit aperiam sunt repellat, eos rem delectus possimus reiciendis. Accusantium voluptatem expedita quis amet provident labore a neque?</p>
+        </div>
+        <div class="secondary_content">
+            <h3>Date</h3>
+            <p>2021</p>
         </div>
     </div>
-
     <hr>
-
-    <div class="article_content">
-        <div class="article_gallery">
+    <div class="article_content flow">
+        <div class="gallery">
             <!-- fill with images in grid/ or make gallery if you can -->
         </div>
-        <div class="article_text">
+        <div>
             <h3>Assignment</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique eligendi saepe voluptatum eius dignissimos doloremque id. Modi ratione, sapiente id in placeat pariatur repellat distinctio eaque tenetur perspiciatis quidem minima?</p>
+        </div>
+        <div>
             <h3>Discovery</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, ullam. Similique quod ut mollitia quae asperiores, officia, sint laboriosam consectetur iusto quos eaque enim atque voluptatem neque nobis sequi quaerat.</p>
+        </div>
+        <div>
             <h3>Summary</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quia natus esse maxime, ipsum dolorum quidem incidunt, eaque recusandae saepe soluta quisquam facilis alias? Facilis eveniet repudiandae cum itaque ab?</p>
         </div>
     </div>
     <!-- related projects done in .njk -->
 </article>
-<!-- <div class="article__section">
+
+
+
+
+
+<!-- 
+<div class="article__section">
     <div class="section-image">
         <img src="{{image}}"/>
     </div> 
@@ -104,7 +99,6 @@ gallery:
         <img src="{{assetPath}}hopper_data.png"/>
     </div>
 </div>
--->
 <h2>Design Process</h2>
 <p>All iterations were designed in SOLIDWORKS2021 before being lasercut on an Epilog Machine</p>
 <div class="article__section">
@@ -174,4 +168,5 @@ gallery:
 <h3>Current Challenge & Possible Next Steps</h3>
 <div class>
     <p>While the updated model improves mechanical function, it is too front-heavy, affecting stability. The next step is to add a tail as a counterweight, enhancing balance and ensuring consistent, controlled hopping.</p>
-</div> -->
+</div> 
+-->
