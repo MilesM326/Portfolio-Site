@@ -174,11 +174,6 @@ hr {
   display: flex;
   flex-wrap: wrap;
 }
-.two-column-layout {
-  display: grid;
-  gap: 2rem;
-  grid-template-columns: 1fr 1fr;
-}
 .project__head {
   background-color: var(--clr-accent-50);
   height: 20rem;
@@ -186,14 +181,6 @@ hr {
   flex-direction: row-reverse;
   align-items: center;
   justify-content: space-between;
-  .project__thumbnail {
-    
-    /* 
-    background-image: url("../assets/Kangaroo_Hopper/v3profile.project__image");
-    background-repeat: repeat-x;
-    background-position: center;
-    background-size: cover */
-  }
   .project__head__text {
     width: 50%;
   }
@@ -319,41 +306,6 @@ hr {
     object-fit: cover;
   }
 }
-
-.article_container {
-  .article_header_section{
-    display: flex;
-    align-items: center;
-    .article_header_content{
-      background-color: aquamarine;
-      .h2{
-        padding-bottom: 1rem;
-      }
-    }
-    .article_header_image{
-      img{
-        border-radius: 10px;
-      }
-    }
-  }
-  .article_info {
-    display: flex;
-    flex-direction: row;
-    .article_info_main {
-      background-color: aquamarine;
-    }
-    .article_info_secondary{
-      display: flex;
-      flex-direction: column;
-      .article_info_tertiary{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-      }
-    }
-  }
-}
-
 #container {
   width: 100px;
   height: 100px;
@@ -369,4 +321,57 @@ hr {
 }
 #infoi {
   z-index: 10;
+}
+
+@media (min-width: 900px) {
+  .grid {
+    display: grid
+  }
+  .grid--hero{
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .grid--thirds{
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+  }
+  .grid__item--hero-image{
+    grid-column: 5 / span 4;
+    grid-row: 1 / span 4;
+  }
+  .grid__item--hero-text{
+    grid-column: 1 / span 5;
+    grid-row: 2 / span 2;
+  }
+  .grid__item--thirds-main{
+    grid-column: 1/ span 2;
+    grid-row: 1/ span 3;
+  }
+  .grid__item--thirds-top{
+    grid-column: 3;
+    grid-row: 1/ span 2;
+  }
+  .grid__item--thirds-bottom{
+    grid-column: 3;
+    grid-row: 3/ span 1;
+  }
+  .article__info {
+    display: flex;
+    flex-direction: row;
+  }
+  .article_info_main {
+    background-color: aquamarine;
+  }
+  .article_info_secondary{
+    display: flex;
+    flex-direction: column;
+  }
+  .article_info_tertiary{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .article__content{
+    background-color: aquamarine;
+  }
 }

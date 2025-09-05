@@ -17,27 +17,27 @@ gallery:
     - v3magnet.jpg
 
 ---
-<article class="article_container flow">
-    <div class="hero">
-        <div class="hero_image">
+<article class="flow">
+    <div class="article__hero grid grid--hero">
+        <div class="grid__item--hero-image">
             <img src="{{thumbnail}}" alt="">
         </div>
-        <div class="hero_intro flow">
-            <h2 class="hero_heading">{{title}}</h2>
-            <p class="hero_preview">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti obcaecati impedit ipsam porro repellendus ullam architecto, asperiores dolorem delectus voluptatem blanditiis explicabo provident esse facilis quo neque omnis excepturi maxime!</p>
+        <div class="grid__item--hero-text flow">
+            <h2>{{title}}</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti obcaecati impedit ipsam porro repellendus ullam architecto, asperiores dolorem delectus voluptatem blanditiis explicabo provident esse facilis quo neque omnis excepturi maxime!</p>
         </div>
     </div>
     <hr>
-    <div class="article_content flow">
-        <div class="primary_content">
+    <div class="article__content grid grid--golden">
+        <div class="grid__item--thirds-main">
             <h3>Goals</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores exercitationem, voluptatem consequatur deserunt dignissimos temporibus dicta enim dolorum voluptas dolore voluptatum vel nostrum consequuntur eveniet, nam, vitae dolores explicabo veritatis.</p>
         </div>
-        <div class="secondary_content">
+        <div class="grid__item--thirds-top">
             <h3>Skills</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias nulla deserunt cupiditate sit aperiam sunt repellat, eos rem delectus possimus reiciendis. Accusantium voluptatem expedita quis amet provident labore a neque?</p>
         </div>
-        <div class="secondary_content">
+        <div class="grid__item--thirds-bottom">
             <h3>Date</h3>
             <p>2021</p>
         </div>
