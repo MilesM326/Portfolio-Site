@@ -24,18 +24,33 @@ gallery:
         </div>
         <div class="grid__item--hero-text flow">
             <h2>{{title}}</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti obcaecati impedit ipsam porro repellendus ullam architecto, asperiores dolorem delectus voluptatem blanditiis explicabo provident esse facilis quo neque omnis excepturi maxime!</p>
+            <p>A biologically-inspired mechanical toy, designed to trigger after a delay</p>
         </div>
     </div>
     <hr>
-    <div class="article__content grid grid--golden">
+    <div class="article__section grid grid--thirds">
         <div class="grid__item--thirds-main">
             <h3>Goals</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores exercitationem, voluptatem consequatur deserunt dignissimos temporibus dicta enim dolorum voluptas dolore voluptatum vel nostrum consequuntur eveniet, nam, vitae dolores explicabo veritatis.</p>
+            <p>How can design an effecient means of energy storage and release, and incorperate a timer and trigger mechanism that maintains the aesthetics of a Kangaroo?</p>    
+            <p>More Specifically:</p>
+            <ul>
+                <li>Timer triggers following an 8 second or more delay.</li>
+                <li>Having the entirety of our design hop.</li>
+                <li>Materials confined to these <a href="" target="_blank">items</a>.</li>
+            </ul>
         </div>
         <div class="grid__item--thirds-top">
             <h3>Skills</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias nulla deserunt cupiditate sit aperiam sunt repellat, eos rem delectus possimus reiciendis. Accusantium voluptatem expedita quis amet provident labore a neque?</p>
+            <div class="tag-collection">
+                <a href"/projects/" class="tag-collection__item">CAD</a>
+                <a href"/projects/" class="tag-collection__item">Python</a>
+                <a href"/projects/" class="tag-collection__item">C##</a>
+                <a href"/projects/" class="tag-collection__item">SolidWorks</a>
+                <a href"/projects/" class="tag-collection__item">ScissorCutting</a>
+                <a href"/projects/" class="tag-collection__item">Thinking</a>
+                <a href"/projects/" class="tag-collection__item">Glueing</a>
+                <a href"/projects/" class="tag-collection__item">Filler</a>
+            </div>
         </div>
         <div class="grid__item--thirds-bottom">
             <h3>Date</h3>
@@ -43,23 +58,46 @@ gallery:
         </div>
     </div>
     <hr>
-    <div class="article_content flow">
-        <div class="gallery">
-            <!-- fill with images in grid/ or make gallery if you can -->
+    <div class="margin article__section flow">
+        <video class="" autoplay loop> 
+            <source src="{{assetPath}}Hopper-jump.mp4" type="video/mp4">
+        </video>
+        <div class="grid grid--gallery">
+            <div class="grid__item --sm"><img src="{{assetPath}}v1back.jpg"/></div>
+            <div class="grid__item --md"><img src="{{assetPath}}v1relaxed.jpg"/></div>
+            <div class="grid__item --sm"><img src="{{assetPath}}v1sketch.jpg"/></div>
+            <div class="grid__item --sm"><img src="{{assetPath}}v1tension.jpg"/></div>
+            <div class="grid__item --sm"><img src="{{assetPath}}v2front.jpg"/></div>
+            <div class="grid__item --sm"><img src="{{assetPath}}v2sitting.jpg"/></div>
+            <div class="grid__item --horizontal"><img src="{{assetPath}}v2sketch.jpg"/></div>
+            <div class="grid__item --sm"><img src="{{assetPath}}v2tension.jpg"/></div>
+            <div class="grid__item --lg"><img src="{{assetPath}}v3magnet.jpg"/></div>
+            <div class="grid__item --sm"><img src="{{assetPath}}v3profile.jpg"/></div>
         </div>
+    </div>
+    <div class="wrapper article__section flow">
         <div>
-            <h3>Assignment</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique eligendi saepe voluptatum eius dignissimos doloremque id. Modi ratione, sapiente id in placeat pariatur repellat distinctio eaque tenetur perspiciatis quidem minima?</p>
-        </div>
-        <div>
-            <h3>Discovery</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, ullam. Similique quod ut mollitia quae asperiores, officia, sint laboriosam consectetur iusto quos eaque enim atque voluptatem neque nobis sequi quaerat.</p>
+            <h3>Context</h3>
+            <p>In my 'Introduction to Mechanical Engineering' class freshman year, I was tasked with designing a biologically-inspired hopper.</p>
         </div>
         <div>
             <h3>Summary</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quia natus esse maxime, ipsum dolorum quidem incidunt, eaque recusandae saepe soluta quisquam facilis alias? Facilis eveniet repudiandae cum itaque ab?</p>
+            <p>The completed design took inspiration from two animals: locusts, for their complex energy storage and release mechanism in their legs; and kangaroos, which influenced the aesthetic design of my hopper.</p>
+        </div>
+        <div>
+            <h3>Possible Next Steps</h3>
+            <p>Though the hopper functions as intended-- </p>
+        </div>
+        <div>
+            <h3>HEYHO</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non voluptate odio ipsum eos minus amet officia consectetur, temporibus odit vero neque, soluta quis debitis doloremque, quas molestias harum earum impedit! </p>
+        </div>
+        <div>
+            <h3>YAYA</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae possimus doloribus blanditiis sint? Magni nihil vitae eum cumque numquam a quibusdam harum facere eius distinctio consectetur architecto perferendis, praesentium natus. </p>
         </div>
     </div>
+    <hr>
     <!-- related projects done in .njk -->
 </article>
 
@@ -88,17 +126,9 @@ gallery:
 <div>
     <h3>Final Design</h3>
     <p>The completed design took inspiration from two animals: locusts, for their complex energy storage and release mechanism in their legs; and kangaroos, which influenced the aesthetic design of my hopper.</p>
-</div>
-<hr/>
-<div class="article__section">
-    <div class="section-text">
+
         <h3>Data</h3>
         <p>I measured this hopper as a rotational hopper. Due to a dowel I added to have the rubber band pull in a certain direction this isn’t an exact measurement. The total mass of my hopper ended up being .048kg (48g). Assuming that U=.229 is accurate. My hopper would have an estimated peak height of .48 meters the actual height of the jump was .1 meters giving my hopper an efficiency of ~20%</p>
-    </div>
-    <div class="section-img">
-        <img src="{{assetPath}}hopper_data.png"/>
-    </div>
-</div>
 <h2>Design Process</h2>
 <p>All iterations were designed in SOLIDWORKS2021 before being lasercut on an Epilog Machine</p>
 <div class="article__section">
@@ -120,16 +150,12 @@ gallery:
         <p> A short dowel connects the body to the thighs by swivel joints. A second, longer dowel runs through the knee joints of the left and right legs. A rubberband is run from one knee dowel, then under its hip, wrap over the notch on the back and under the other sides hip, and finaly hooked on the other knee giving elasticity to the legs when when compressed. Two levers on either side of the body act as triggers, hooking the shins in place.</p>
         <div>
             <h4>Prototype Challenges</h4>
-            <p>This prototype focused primarily on the function of the legs and trigger. While it successfully demonstrated hopping, it presented several challenges:</p>
-            <ul>
+            <p>This prototype focused primarily on the function of the legs and trigger. While it successfully demonstrated hopping, it presented several challenges:
                 <li>Scale was too small to integrate additional components, like timer.</li>
                 <li>Inconsistent trigger mechanism due to friction on lever hinge and between lever hooks and shins.</li>
                 <li>Difficulty balancing model on legs due to lack of feet and freely rotating knees.</li>
                 <li>Inconvenient design for resetting legs.</li>
-            </ul>
-        </div>
-    </div>
-    <div>
+
         <h3>Construction of Prototype 2</h3>
         <p>The next iteration addressed these limitations, improving both function and form.</p>
         <img src="{{assetPath}}v2sketch.jpg"/>
@@ -167,6 +193,6 @@ gallery:
 </div>
 <h3>Current Challenge & Possible Next Steps</h3>
 <div class>
-    <p>While the updated model improves mechanical function, it is too front-heavy, affecting stability. The next step is to add a tail as a counterweight, enhancing balance and ensuring consistent, controlled hopping.</p>
+    <p></p>
 </div> 
 -->
