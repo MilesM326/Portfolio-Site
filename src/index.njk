@@ -34,7 +34,8 @@ layout: 'base.njk'
               <div class="project__content flow">
                 <div>
                   <h3 class="project__heading">
-                    <a href="{{ post.url }}" data-variant="inline">{{ post.data.title }}</a>
+                    {{ post.data.title }}
+                    {# <a href="{{ post.url }}" data-variant="inline"></a> #}
                   </h3>
                   <p class="project__tags clr-dark">{{ post.data.attributes }}</p>
                   <p class="project__tags clr-dark">{{ post.data.date | postDate }}</p>

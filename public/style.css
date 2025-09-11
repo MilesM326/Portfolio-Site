@@ -255,6 +255,7 @@ hr {
   h2,
   .fs-xl {
     font-size: var(--fs-xl);
+    margin-block-end: .6rem;
   }
   h3 {
     font-size: var(--fs-lg);
@@ -286,6 +287,16 @@ hr {
     }
     & :last-child {
       grid-column: 7/13;
+    }
+  }
+  .bio > li {
+    display: flex;
+    justify-content: space-between;
+    
+    &>:last-child {
+      padding-inline-start: 5rem;
+      text-align: end;
+    
     }
   }
 }
