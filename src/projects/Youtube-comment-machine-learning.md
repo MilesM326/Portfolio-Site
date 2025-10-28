@@ -1,5 +1,5 @@
 ---
-title: Using Machine Learning and Webscraping to Understand Online Spaces
+title: Using Machine Learning and Web Scraping to Understand Online Spaces
 date: 2025-05-16
 image: assets/projects/MachineLearning/MachineLearning.png
 imageAlt:
